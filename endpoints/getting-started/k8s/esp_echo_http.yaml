@@ -44,8 +44,8 @@ spec:
       # [START secret-1]
       volumes:
         - name: nginx-ssl
-            secret:
-              secretName: nginx-ssl
+          secret:
+            secretName: nginx-ssl
         - name: service-account-creds
           secret:
             secretName: service-account-creds
