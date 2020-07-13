@@ -58,7 +58,7 @@ spec:
             "--http_port", "8080",
             "--ssl_port", "443",
             "--backend", "127.0.0.1:8081",
-            "--service", "echo-api.endpoints.testing-ucic.cloud.goog",
+            "--service", "endpoint-ssl.endpoints.testing-ucic.cloud.goog",
             "--rollout_strategy", "managed",
             "--service_account_key", "/etc/nginx/creds/service-account-creds.json",
           ]
